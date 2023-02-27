@@ -4,8 +4,7 @@
 #include "application.h"
 
 
-class Server : public Application
-{
+class Server : public Application {
 public:
     Server();
     virtual int run();
