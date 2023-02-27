@@ -1,11 +1,14 @@
 #ifndef _CLIENT_H
 #define _CLIENT_H
 
-class Client
+#include "application.h"
+
+
+class Client : public Application
 {
 public:
     Client();
-    int run();
+    virtual int run();
 };
 
 #endif // _CLIENT_H

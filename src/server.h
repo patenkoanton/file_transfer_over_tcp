@@ -1,11 +1,14 @@
 #ifndef _SERVER_H
 #define _SERVER_H
 
-class Server
+#include "application.h"
+
+
+class Server : public Application
 {
 public:
     Server();
-    int run();
+    virtual int run();
 };
 
 #endif // _SERVER_H
