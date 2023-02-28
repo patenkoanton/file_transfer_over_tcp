@@ -17,6 +17,7 @@ CLIENT_MODULES = \
 COMMON_DEPENDENCIES = \
 	application \
 	socket \
+	ip_address \
 
 SERVER_OBJ = $(SERVER_MODULES:=.o)
 CLIENT_OBJ = $(CLIENT_MODULES:=.o)
